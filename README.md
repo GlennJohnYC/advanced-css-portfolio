@@ -11,4 +11,4 @@ Creating a portfolio using advanced CSS and HTML.
 
 
 ## Link to application
-https://github.com/GlennJohnYC/advanced-css-portfolio
+https://glennjohnyc.github.io/advanced-css-portfolio/
