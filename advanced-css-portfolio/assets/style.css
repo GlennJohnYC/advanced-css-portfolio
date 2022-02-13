@@ -1,0 +1,259 @@
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them */
+
+header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 1em;
+
+}
+
+h1 {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 9em;
+    margin: 1em;
+    padding: 0.5em;
+    text-shadow: gray 0px 1px 3px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px inset;
+}
+
+nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    width: 40%;
+    margin: 1em;
+} 
+
+/* WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section */
+
+/* WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications */
+
+
+
+ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+} 
+
+li {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex: 1 1 20%;
+    margin: 0.5em;
+    
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow:gray 0px 1px 2px ;
+    text-shadow: 0px 1px 1px;
+    box-shadow: 0 0 5px inset;
+}
+
+a:link {
+    color: black;
+    text-decoration: transparent;
+}
+
+a:visited {
+    color: black;
+    text-decoration: transparent;
+}
+
+#background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("IMG-992.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    box-shadow: 0px 0px 15px;
+}
+
+main {
+    position: relative;
+    display: flex;        
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 1em 1em 1em;
+    padding: 0.5em;
+    border: 2px solid black;
+    box-shadow: 0 0 10px inset;
+    text-shadow: gray 0px 1px 3px;
+    height: 2.5em;
+    width: 3.2em;
+
+}
+
+#about  {
+    position: relative;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    margin: 1em;
+    width: 95%;
+    text-shadow: gray 0px 1px 1px;
+}
+
+#work {
+    position: relative;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    margin: 1em;
+    width: 95%;
+}
+
+#contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    margin: 2em;
+    width: 95%;
+}
+
+/* WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others */
+
+/* WHEN I click on the images of the applications
+THEN I am taken to that deployed application */
+
+
+#food {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 80%;
+    box-shadow: 0px 0px 7px;
+    min-width: 100%
+}
+
+#foodcaption {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px inset;
+    text-shadow: gray 0px 1px 3px;
+    width: 20%;
+    bottom: 6px;
+    left: 11.5em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#work2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0.5em;
+    margin: 1em;
+    width: 95%;
+}
+
+#otherapps {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 37%;
+
+}
+
+#selfcare {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+    box-shadow: 0px 0px 7px;
+    margin-right: 2em;
+    margin-left: 10.5em;
+}
+
+#travel {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 94%;
+    box-shadow: 0px 0px 7px;
+    margin-left: 1;
+}
+
+#foodcaption2 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px inset;
+    text-shadow: gray 0px 1px 3px;
+    width: 20%;
+    bottom: 6px;
+    left: -15.4em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#foodcaption3 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px inset;
+    text-shadow: gray 0px 1px 3px;
+    width: 20%;
+    bottom: 6px;
+    right: -26em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#contact p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em;
+    text-shadow: gray 0px 1px 1px;
+}
+/* WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport */
